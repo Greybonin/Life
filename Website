@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+    
+        <title>Life®</title>
+        <style>
+          html { 
+  background: url(images/Back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+      
+ #imagesMain {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.imagesMain img {
+height: 300px;
+width: 500px;
+vertical-align: middle;
+margin: 3px;
+border: thick 3px;
+opacity: 0.8
+}      
+            
+            .text{
+                color="red"
+                font-style: normal;
+                font-family: sans-serif;
+            }            
+        </style>
+    </head>
+
+    <body style="font-family:new century schoolbook;">        
+  <h1 class="text"> <font>Life</font> </h1>
+        
+<div> <script type="text/javascript">
+  var urls = new Array("https://www.youtube.com/embed/lp-EO5I60KA", "https://www.youtube.com/embed/c984wWRp8dE", "https://www.youtube.com/embed/DiTECkLZ8HM");
+  document.writeln("<iframe src='" + urls[Math.floor(Math.random()*urls.length)] + "' style='height: 300px; width: 550px;'><\/iframe>");
+</script></div>
+        
+        <div> <script type="text/javascript">
+  var urls = new Array("https://www.youtube.com/embed/3cxixDgHUYw", "https://www.youtube.com/embed/W0_DPi0PmF0", "https://www.youtube.com/embed/XbGs_qK2PQA");
+  document.writeln("<iframe src='" + urls[Math.floor(Math.random()*urls.length)] + "' style='height: 300px; width: 550px;'><\/iframe>");
+</script></div>
+  
+        <div>
+        <script type="text/javascript">
+  var urls = new Array("https://www.youtube.com/embed/QDjci1ODoBs", "https://www.youtube.com/embed/U49VvGYZr98", "https://www.youtube.com/embed/duPynkGEFGI");
+  document.writeln("<iframe src='" + urls[Math.floor(Math.random()*urls.length)] + "' style='height: 300px; width: 550px;'><\/iframe>");
+</script>
+        </div>
+            
+ </body>
+        
+</html>
